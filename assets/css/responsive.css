@@ -1,0 +1,243 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media (max-width: 575px) {
+    .btn-general {
+        padding: 8px 35px;
+        font-size: 10px;
+    }
+    
+    #back-to-top{
+        font-size: 10px;
+        padding: 2px 7px;
+    }
+
+    /*home*/
+    #home-heading h1 {
+        font-size: 30px;
+    }
+
+    #home-heading h1 {
+        font-size: 30px;
+	}
+	
+	#home-heading span{
+		font-size: 40px;
+	}
+
+    #home-text p {
+        font-size: 11px;
+    }
+
+    /*vertical heading*/
+    .vertical-heading {
+        text-align: center;
+    }
+
+    .vertical-heading h5 {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .vertical-heading h2 {
+        margin: 0;
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    /*About*/
+    .about-item {
+        margin-bottom: 20px;
+    }
+
+    /*Team*/
+    #team-bottom p {
+        margin: 40px 0 50px 0;
+    }
+
+
+    /*state*/
+    .stats-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+
+    .stats-item i {
+        font-size: 25px;
+    }
+
+    .stats-item h3 {
+        font-size: 16px;
+    }
+
+    /*contact*/
+    .branch h4 {
+        font-size: 16px;
+    }
+
+    ul.brance-details li {
+        font-size: 12px;
+        margin: 0
+    }
+
+    ul.brance-details li i {
+        font-size: 12px;
+    }
+
+
+    /*skill*/
+    .skill h4 {
+        font-size: 14px;
+        line-height: 15px;
+        margin: 0 0 14px 0;
+    }
+
+    
+
+@media (max-width: 500px) {
+    .console-container{
+        font-size: 25px;
+        top: 56%;
+    }
+    
+    .btn-general {
+        padding: 5px 30px;
+        font-size: 10px;
+    }
+
+
+    /*work*/
+    #isotope-filter {
+        text-align: center;
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding-right: 14px;
+    }
+
+    #branch {
+        text-align: center;
+    }
+
+    .branch ul.brance-details li {
+        display: block
+    }
+}
+
+@media (max-width: 450px) {
+    #home-text p {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .btn-general {
+        padding: 5px 30px;
+        font-size: 10px;
+    }
+    
+    #back-to-top{
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+    
+    #isotope-filter {
+        text-align: center;
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding-right: 14px;
+    }
+
+    /*customer*/
+    .testimonial h3 {
+        font-size: 24px;
+    }
+
+    .star {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .testimonial p {
+        font-size: 10px;
+    }
+
+    #branch {
+        text-align: center;
+    }
+
+    .branch ul.brance-details li {
+        display: block
+    }
+
+    .skill {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    #home-text p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        line-height: normal;
+    }
+    #back-to-top{
+        font-size: 12px;
+        padding: 1px 8px;
+    }
+    /*customer*/
+    .testimonial h3 {
+        font-size: 18px;
+    }
+
+    .star {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .testimonial p {
+        font-size: 10px;
+    }
+
+    #branch {
+        text-align: center;
+    }
+
+    .branch ul.brance-details li {
+        display: block
+    }
+
+    .skill {
+        margin-bottom: 10px;
+    }
+
+    .progress {
+        height: 22px;
+    }
+}
+
+@media (max-width: 300px) {
+    #home-heading h1 {
+        font-size: 25px;
+    }
+    #back-to-top{
+        font-size: 10px;
+        padding: 1px 5px;
+    }
+    .progress {
+        height: 18px;
+    }
+
+    .skill {
+        margin-bottom: 10px;
+    }
+}
